@@ -1,5 +1,7 @@
 # Birthday Circuit Project
 
+Built by: Ashwin Kirubakaran
+
 ## Overview
 This project involves the creation of a Birthday Circuit that displays my birthday using a combination of logic circuits, counters, and a 7-segment display. The project aims to showcase the ability to create interactive electronics while learning about digital logic. I built this project for my Electrical/Computer Engineering Project, and spent a week building this. 
 
