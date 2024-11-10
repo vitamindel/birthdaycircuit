@@ -96,9 +96,8 @@
         <div class="row justify-content-center">
           <div class="col-lg-8 content text-center" data-aos="fade-up" data-aos-delay="100">
             <p>
-              The first step to building this project was to do calculations. I had to first generate the necessary truth table for this design. The truth table that I had designed shows each combination of X, Y, and Z(the inputs), what these inputs are supposed to display on the 7-segment display, and which segments will light up for each number (the outputs).
+              The first step to building this project was to do calculations. I had to first generate the necessary truth table for this design. The truth table that I had designed shows each combination of X, Y, and Z(the inputs), what these inputs are supposed to display on the 7-segment display, and which segments will light up for each number (the outputs).  
             </p>
-            <a href="https://docs.google.com/document/d/1xcGmeE5Tnuy8-gy5vqA9z8jIUQPBg9A_xY91EeMNDD0/edit?usp=sharing">Link to the full Arduino Code!</a>
             <div class="image-container" data-aos="fade-up" data-aos-delay="100">
               <img src="assets/img/truthtable.jpg" class="img-fluid rotate-img-truth-table" alt="Truth Table Image">
             </div>
@@ -123,19 +122,27 @@
   <div class="container section-title" data-aos="fade-up">
     <h2>Step 2</h2>
   </div><!-- End Section Title -->
+  
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-lg-8 content text-center" data-aos="fade-up" data-aos-delay="100">
         <p>
-          In this part of the project, I had to write a program that takes 3 digital inputs, and uses conditional logic to light up specific segments of a 7-segment display. Each combination of inputs gives a different segment pattern on the display, which shows the different numbers of my birthday. In my program, I had 2 important sections, being the setup section, and the loop section. For the Setup Section, I configured pins 12, 11, and 10 on the Arduino Nano as input pins, and pins 2 to 8 as output pins that control the 7-segment display. Following this, I wrote the loop section, which runs repeatedly, and updates the display segments according to the input states. In this, I made commands that read the current state (HIGH or LOW) of each input pin and stored them in the specific variables (i.e. input0). In this section, I also used if/else if conditions to check each possible combination of the three inputs, corresponding to my birthday. Finally, I tested my code with a simple circuit that included an Arduino Nano and a 7-segment display. 
+          In this part of the project, I had to write a program that takes 3 digital inputs, and uses conditional logic to light up specific segments of a 7-segment display. Each combination of inputs gives a different segment pattern on the display, which shows the different numbers of my birthday. In my program, I had 2 important sections, being the setup section, and the loop section. For the Setup Section, I configured pins 12, 11, and 10 on the Arduino Nano as input pins, and pins 2 to 8 as output pins that control the 7-segment display. Following this, I wrote the loop section, which runs repeatedly, and updates the display segments according to the input states. In this, I made commands that read the current state (HIGH or LOW) of each input pin and stored them in the specific variables (i.e. input0). In this section, I also used if/else if conditions to check each possible combination of the three inputs, corresponding to my birthday. Finally, I tested my code with a simple circuit that included an Arduino Nano and a 7-segment display.
         </p>
+
+        <div style="margin-bottom: 20px;"> <!-- Add spacing below the link -->
+          <a href="https://docs.google.com/document/d/1xcGmeE5Tnuy8-gy5vqA9z8jIUQPBg9A_xY91EeMNDD0/edit?usp=sharing" target="_blank">Link to the full Arduino Code!</a>
+        </div>
+        
       </div>
+      
       <div class="image-container" data-aos="fade-up" data-aos-delay="100">
         <img src="assets/img/arduinocode.png" class="img-fluid img-arduinocode" alt="A picture of my Arduino Code">
       </div>
     </div>
   </div>
-</section><!-- /Step 2 Section -->
+</section>
+<!-- /Step 2 Section -->
 
 <!-- Step 3 Section -->
 <section id="step3" class="step3 section light-background">
