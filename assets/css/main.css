@@ -1,15 +1,4 @@
-/**
-* Template Name: Arsha
-* Template URL: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/
-* Updated: Aug 07 2024 with Bootstrap v5.3.3
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# Font & Color Variables
-# Help: https://bootstrapmade.com/color-system/
---------------------------------------------------------------*/
 /* Fonts */
 :root {
   --default-font: "Open Sans",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -1193,5 +1182,59 @@ section,
 }
 
 #step4-5 .btn-watch-video:hover {
+  background-color: #002244; /* Darken on hover */
+}
+
+.rotate-img-step-4 {
+  width: 100%; /* Adjust image size if necessary */
+  transition: transform 0.5s ease-in-out;
+  padding: 50px;
+}
+/*--------------------------------------------------------------
+# Step4-5 Section
+--------------------------------------------------------------*/
+.step5 {
+  padding: 60px 0;
+  text-align: center;
+}
+
+.step5 .section-title h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.step5 .content {
+  margin: 0 auto; /* Centers the content */
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.step5 p {
+  color: var(--default-color);
+  margin-bottom: 20px;
+}
+
+#step5 .btn-watch-video {
+  background-color: #003366; /* Dark blue background */
+  color: #ffffff; /* White text color */
+  padding: 12px 36px; /* Add padding for larger button */
+  border-radius: 5px; /* Slight rounding for a softer look */
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-decoration: none; /* Remove underline */
+  display: inline-flex; /* Align icon and text horizontally */
+  align-items: center; /* Center align items vertically */
+  justify-content: center; /* Center content within button */
+  transition: background-color 0.3s ease;
+  margin-top: 50px; /* Add space between text and button */
+}
+
+#step5 .btn-watch-video i {
+  font-size: 20px;
+  margin-right: 8px; /* Space between icon and text */
+}
+
+#step5 .btn-watch-video:hover {
   background-color: #002244; /* Darken on hover */
 }
